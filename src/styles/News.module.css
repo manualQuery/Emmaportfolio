@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.newsList {
+  width: 100%;
+  max-width: 800px;
+}
+
+.newsItem {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.newsItem h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.newsItem p {
+  font-size: 1rem;
+}

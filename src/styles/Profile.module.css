@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profileDetails {
+  width: 100%;
+  max-width: 400px;
+}
+
+.profileDetails p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
